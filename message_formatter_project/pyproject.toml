@@ -1,0 +1,17 @@
+[project]
+name = "message-formatter-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "usman-at-whizz-bridge", email = "usman.amir@whizzbridge.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+message-formatter-project = "message_formatter_project:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
