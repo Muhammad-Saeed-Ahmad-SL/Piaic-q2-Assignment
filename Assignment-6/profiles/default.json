@@ -1,0 +1,17 @@
+{
+  "name": "Default",
+  "description": "Default chatbot with tools",
+  "models": ["mistralai/mistral-7b-instruct:free"],
+  "parameters": {
+    "enable_weather": {
+      "type": "switch",
+      "default": true,
+      "label": "Enable Weather Tool"
+    },
+    "enable_calculator": {
+      "type": "switch",
+      "default": true,
+      "label": "Enable Calculator Tool"
+    }
+  }
+}
